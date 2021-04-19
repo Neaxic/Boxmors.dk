@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+}
+
+body {
+  background-color: white;
+}
+
+nav {
+  padding: 0 60px 0 60px;
+}
+
+nav a {
+  font: bold 14px/1.4 "Open Sans", arial, sans-serif;
+
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  position: relative;
+}
+nav .nav-item a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(0, 0, 0);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+nav .nav-item a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+#banner {
+  padding: 60px 0 60px 0;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  text-align: center;
+  background-image: url(../images/pattern.png);
+}
+
+#banner h3 {
+  font-weight: 1000;
+  font-style: bold;
+}
+
+#banner p {
+  font-weight: 100;
+}
+
+#priser {
+  background-color: rgb(247, 110, 110);
+  color: white;
+  padding: 60px 0 60px 0;
+}
+
+#feautres {
+  padding: 10px 0 60px 0;
+}
+
+#feature {
+  padding: 50px 0 0 0;
+}
+
+button {
+  width: 25%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 5%;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: 3px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  transition: all 0.3s linear;
+}
+button:hover {
+  background-color: #fefefe;
+  color: #c4c4c4;
+  cursor: pointer;
+}
+
+.abutton {
+  width: 40%;
+  padding: 20px 0 20px 0;
+  margin: 0 15% 5% 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: 3px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  transition: all 0.3s linear;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+}
+.abutton:hover {
+  background-color: #fefefe;
+  color: #c4c4c4;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #fefefe;
+  color: #c4c4c4;
+  cursor: pointer;
+}
+
+.modal-content {
+  min-width: 600px;
+}
+
+.modal-content iframe {
+  width: 560px;
+  height: 315px;
+  align-items: center;
+}
+
+#About {
+  background-color: rgb(255, 0, 0);
+  background-image: url(../images/pattern.png);
+  background-repeat: repeat;
+}
+
+#About p,
+#About h2 {
+  color: white;
+  text-align: center;
+}
+
+.hero {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url(../images/web-banner-01.jpg);
+  padding-bottom: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(../images/web-banner-01-mobile.png);
+    padding-bottom: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #priser row:nth-child(2) div:nth-child(2) {
+    background-color: red;
+  }
+  .abutton {
+    float: left;
+    margin-left: 15%;
+  }
+}

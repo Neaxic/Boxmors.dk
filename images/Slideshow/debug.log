@@ -1,0 +1,29 @@
+[0327/183957.055:ERROR:command_buffer_proxy_impl.cc(124)] ContextResult::kTransientFailure: Failed to send GpuChannelMsg_CreateCommandBuffer.
+[0327/183957.055:ERROR:command_buffer_proxy_impl.cc(124)] ContextResult::kTransientFailure: Failed to send GpuChannelMsg_CreateCommandBuffer.
+[0327/211513.419:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211518.433:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211523.449:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211535.622:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211546.148:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211551.165:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211556.175:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211601.193:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211606.210:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211611.221:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211616.236:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211637.760:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211642.776:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211647.793:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211652.800:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211657.803:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211702.813:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211707.829:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211712.868:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211717.876:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211722.881:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211727.886:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211734.406:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211743.777:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211748.787:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211753.796:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0327/211758.802:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
