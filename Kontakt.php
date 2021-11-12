@@ -163,7 +163,7 @@ $message_sent = false;
                 </div>
                 <div class="col-lg-6">
                     <h2>Find os her!</h2>
-                    <h4>Islandsvej 4</h4>
+                    <h4>Islandsvej 4 & Rolstrupbakken 1</h4>
                     <h4>Nykøbing Mors 7900</h4>
                 </div>
             </div>
