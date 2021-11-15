@@ -193,6 +193,9 @@ $message_sent = false;
             </div>
         </div>
         <div class="col-12 col-lg-2">
+          <div>CVR- <strong><br><a style="color: white;">41105771</a></strong></div>
+        </div>
+        <div class="col-12 col-lg-2">
             <div>WEBDESIGN- <strong><br><a href="http://www.Javel.dk" style="color: white;">JAVEL.DK</a></strong>
             </div>
         </div>
